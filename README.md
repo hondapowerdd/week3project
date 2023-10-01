@@ -12,3 +12,14 @@ Team members: Edison Lin, Micheal He, Manskim Quan and William Meng
 - Graphical user interface that provides the most important data to the user
 - Tools that allow for analysis of past trends and apply to the current market
 - Risk warnings through analysis of accounting, managerial and news sources
+
+
+# API’s
+
+Alpha Vantage - [https://www.alphavantage.co/documentation/](https://www.alphavantage.co/documentation/)
+
+Twelve Data - [https://twelvedata.com/docs#getting-started](https://twelvedata.com/docs#getting-started)
+
+Polygon - [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
+
+IEX - [https://iexcloud.io/docs/api/](https://iexcloud.io/docs/api/)
