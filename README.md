@@ -21,7 +21,7 @@ Team members: Edison Lin, Micheal He, Manskim Quan and William Meng
 ### Twelve Data - [https://twelvedata.com/docs#getting-started](https://twelvedata.com/docs#getting-started)
 ![img.png](img.png) \
 An example of a get request that returns the price of the stock price for the period desired in the request. The response is in CSV format. 
-The API was part of the request.
+The API key was part of the request.
 
 ### Polygon - [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
 
