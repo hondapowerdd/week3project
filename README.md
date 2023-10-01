@@ -38,7 +38,10 @@ We have used teh Tweleve Data API to get the stock price for the period desired 
 To get an API key go to https://twelvedata.com/docs#getting-started signup and get the API key.
 We have used external libraries to make the request and parse the response.
 
-![Screenshot 2023-10-01 000155.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-10-01%20000155.png)
-![Screenshot 2023-10-01 000149.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-10-01%20000149.png)
-![Screenshot 2023-10-01 000200.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-10-01%20000200.png)
+You can run test in app to see the result. 
+You will need to put the API key in the environment variable as apikey=YOUR_API_KEY
+
+To run the code, you need to have the following libraries installed:
+
+![1.png](1.png)![2.png](2.png)![3.png](3.png)
 ```
