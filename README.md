@@ -44,4 +44,8 @@ You will need to put the API key in the environment variable as apikey=YOUR_API_
 To run the code, you need to have the following libraries installed:
 
 ![1.png](1.png)![2.png](2.png)![3.png](3.png)
+
+The TEST will return a price of the stock symbol you input for the last known price.
+
+We have the problem of potentially not enough API calls to get the data we need. This can be resolved by paying for the API calls.
 ```
