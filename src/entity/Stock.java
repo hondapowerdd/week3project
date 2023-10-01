@@ -1,15 +1,19 @@
 package entity;
 
+import java.util.Dictionary;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Stock {
     private String symbol;
-    private String interval;
-    private String exchange;
-    private String mic_code;
-    private String country;
-    private String type;
-    private String outputsize;
-    private String format;
-    private String delimiter;
-    private String apikey;
-    private String prepost;
+    private Float price;
+
+    public Stock(String symbol, Float price){
+        this.symbol = symbol;
+        this.price = price;
+    }
+
+    public float getPrice(){
+        return this.price;
+    }
 }
