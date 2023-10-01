@@ -17,13 +17,15 @@ Team members: Edison Lin, Micheal He, Manskim Quan and William Meng
 # API’s
 
 ### Alpha Vantage - [https://www.alphavantage.co/documentation/](https://www.alphavantage.co/documentation/)
-
+![screenshot.png](screenshot.png)
+An example of getting stock quote for IBM using Alpha Vantage api.
 ### Twelve Data - [https://twelvedata.com/docs#getting-started](https://twelvedata.com/docs#getting-started)
 ![img.png](img.png) \
 An example of a get request that returns the price of the stock price for the period desired in the request. The response is in CSV format. 
 The API key was part of the request.
 
 ### Polygon - [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
+![polygon_testcase](https://github.com/hondapowerdd/week3project/assets/144290605/d2ea6989-2f75-4dc3-b450-286163255bbe)
 
 ### IEX - [https://iexcloud.io/docs/api/](https://iexcloud.io/docs/api/)
 ![WechatIMG174.jpg](WechatIMG174.jpg) \ 
