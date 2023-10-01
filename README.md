@@ -26,3 +26,5 @@ The API was part of the request.
 ### Polygon - [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
 
 ### IEX - [https://iexcloud.io/docs/api/](https://iexcloud.io/docs/api/)
+![img_1.png](img_1.png)
+An example of getting stock Quote for Apple using IEX api.
