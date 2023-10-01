@@ -29,15 +29,22 @@ public class TwelveDataDB implements StockDB{
             System.out.println(response);
             JSONObject responseBody = new JSONObject(response.body().string());
 
-            if (responseBody.getInt("status_code") == 200) {
-                JSONObject stock = responseBody.getJSONObject("price");
-                return Stock.builder()
-                        .symbol(stock.getString("symbol"))
-                        .price(stock.getFloat("price"))
-                        .build();
-            } else {
-                throw new RuntimeException(responseBody.getString("message"));
-            }
+//            System.out.println(responseBody.getClass());
+
+            return Stock.builder()
+                    .symbol(symbol)
+                    .price(Float.parseFloat(responseBody.getString("price")))
+                    .build();
+
+//            if (responseBody.getInt("status_code") == 200) {
+//                JSONObject stock = responseBody.getJSONObject("price");
+//                return Stock.builder()
+//                        .symbol(stock.getString("symbol"))
+//                        .price(stock.getFloat("price"))
+//                        .build();
+//            } else {
+//                throw new RuntimeException(responseBody.getString("message"));
+//            }
         } catch (IOException | JSONException e) {
             throw new RuntimeException(e);
         }
