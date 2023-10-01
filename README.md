@@ -24,6 +24,7 @@ An example of a get request that returns the price of the stock price for the pe
 The API key was part of the request.
 
 ### Polygon - [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
+![polygon_testcase](https://github.com/hondapowerdd/week3project/assets/144290605/d2ea6989-2f75-4dc3-b450-286163255bbe)
 
 ### IEX - [https://iexcloud.io/docs/api/](https://iexcloud.io/docs/api/)
 ![WechatIMG174.jpg](WechatIMG174.jpg) \ 
